@@ -1,0 +1,33 @@
+#calculatorContainer {
+    height: 610px;
+    width: 415px;
+    background-color: black;
+    margin: 0 auto;
+}
+#calculatorDisplay {
+    width: 415px;
+    height: 100px;
+    background-color: rgb(33, 33, 33);
+}
+.calculatorButtons {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(213, 213, 213);
+    border: black solid 1px;
+    font-size: 20px;
+    /* border-radius: 50%; */
+}
+.calculatorButtons:active {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(190, 190, 190);
+    border: black solid 1px;
+    font-size: 20px;
+    /* border-radius: 50%; */
+}
+.orangeButton {
+    background-color: rgb(255, 165, 0);
+}
+.orangeButton:active {
+    background-color: rgb(228, 149, 3);
+}
