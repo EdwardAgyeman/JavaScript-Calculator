@@ -11,26 +11,26 @@
 <body>
     <div id="calculatorContainer">
         <div id="calculatorDisplay"></div>
-        <input type="button" value="AC" class="calculatorButtons">
-        <input type="button" value="+/-" class="calculatorButtons">
-        <input type="button" value="%" class="calculatorButtons">
-        <input type="button" value="/" class="calculatorButtons orangeButton">
-        <input type="button" value="7" class="calculatorButtons">
-        <input type="button" value="8" class="calculatorButtons">
-        <input type="button" value="9" class="calculatorButtons">
-        <input type="button" value="*" class="calculatorButtons orangeButton">
-        <input type="button" value="4" class="calculatorButtons">
-        <input type="button" value="5" class="calculatorButtons">
-        <input type="button" value="6" class="calculatorButtons">
-        <input type="button" value="-" class="calculatorButtons orangeButton">
-        <input type="button" value="1" class="calculatorButtons">
-        <input type="button" value="2" class="calculatorButtons">
-        <input type="button" value="3" class="calculatorButtons">
-        <input type="button" value="+" class="calculatorButtons orangeButton">
-        <input type="button" value="0" class="calculatorButtons">
-        <!-- <input type="button" value="0" class="calculatorButtons"> -->
-        <input type="button" value="." class="calculatorButtons">
-        <input type="button" value="=" class="calculatorButtons orangeButton">
+
+        <input type="button" value="C" id="C" class="calculatorButtons" onclick="clearButton()">
+        <input type="button" value="+/-" id="+/-" class="calculatorButtons" onclick="buttonX()">
+        <input type="button" value="%" id="%" class="calculatorButtons" onclick="buttonX()">
+        <input type="button" value="/" id="/" class="calculatorButtons orangeButton" onclick="getOperator('/')">
+        <input type="button" value="7" id="7" class="calculatorButtons" onclick="getNumber(7)">
+        <input type="button" value="8" id="8" class="calculatorButtons" onclick="getNumber(8)">
+        <input type="button" value="9" id="9" class="calculatorButtons" onclick="getNumber(9)">
+        <input type="button" value="*" id="*" class="calculatorButtons orangeButton" onclick="getOperator('*')">
+        <input type="button" value="4" id="4" class="calculatorButtons" onclick="getNumber(4)">
+        <input type="button" value="5" id="5" class="calculatorButtons" onclick="getNumber(5)">
+        <input type="button" value="6" id="6" class="calculatorButtons" onclick="getNumber(6)">
+        <input type="button" value="-" id="-" class="calculatorButtons orangeButton" onclick="getOperator('-')">
+        <input type="button" value="1" id="1" class="calculatorButtons" onclick="getNumber(1)">
+        <input type="button" value="2" id="2" class="calculatorButtons" onclick="getNumber(2)">
+        <input type="button" value="3" id="3" class="calculatorButtons" onclick="getNumber(3)">
+        <input type="button" value="+" id="+" class="calculatorButtons orangeButton" onclick="getOperator('+')">
+        <input type="button" value="0" id="0" class="calculatorButtons" onclick="getNumber(0)">
+        <input type="button" value="." id="." class="calculatorButtons" onclick="getOperator('.')">
+        <input type="button" value="=" id="=" class="calculatorButtons orangeButton" onclick="buttonEquals('=')">
     </div>
     <script src="assets/js/main.js"></script>
 </body>
