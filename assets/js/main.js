@@ -14,12 +14,6 @@ function getOperator(operator){
 function clearButton () {
     display.innerHTML = " "
 }
-
-
-// ----------------------Decimal---------------------------------------------------------------------------------------------------
-
-
-
 // ----------------------Result----------------------------------------------------------------------------------------------------
 function buttonEquals(){
     display.innerHTML = eval (display.innerHTML)
